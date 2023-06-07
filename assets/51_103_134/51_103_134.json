@@ -1,0 +1,21 @@
+{
+  "name": "51_103_134",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/51_103_134/51_103_134.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "51"
+    },
+    {
+      "trait_type": "G",
+      "value": "103"
+    },
+    {
+      "trait_type": "B",
+      "value": "134"
+    }
+  ]
+}

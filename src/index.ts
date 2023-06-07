@@ -76,7 +76,7 @@ async function generateImages(n: number, dir: string) {
     )
 
     uris.push(
-      `https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/json/${color.r}_${color.g}_${color.b}.json`
+      `https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/${color.r}_${color.g}_${color.b}/${color.r}_${color.g}_${color.b}.json`
     )
   }
 
