@@ -1,9 +1,9 @@
 {
-  "name": "40_232_144",
+  "name": "40_183_132",
   "symbol": "RGB",
   "description": "Random RGB Color",
   "seller_fee_basis_points": 0,
-  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/40_232_144/40_232_144.png",
+  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/40_183_132/40_183_132.png",
   "attributes": [
     {
       "trait_type": "R",
@@ -11,11 +11,11 @@
     },
     {
       "trait_type": "G",
-      "value": "232"
+      "value": "183"
     },
     {
       "trait_type": "B",
-      "value": "144"
+      "value": "132"
     }
   ]
 }

@@ -1,21 +1,21 @@
 {
-  "name": "214_7_245",
+  "name": "32_150_152",
   "symbol": "RGB",
   "description": "Random RGB Color",
   "seller_fee_basis_points": 0,
-  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/214_7_245/214_7_245.png",
+  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/32_150_152/32_150_152.png",
   "attributes": [
     {
       "trait_type": "R",
-      "value": "214"
+      "value": "32"
     },
     {
       "trait_type": "G",
-      "value": "7"
+      "value": "150"
     },
     {
       "trait_type": "B",
-      "value": "245"
+      "value": "152"
     }
   ]
 }

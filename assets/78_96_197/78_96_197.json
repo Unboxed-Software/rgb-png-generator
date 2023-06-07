@@ -1,21 +1,21 @@
 {
-  "name": "131_140_115",
+  "name": "78_96_197",
   "symbol": "RGB",
   "description": "Random RGB Color",
   "seller_fee_basis_points": 0,
-  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/131_140_115/131_140_115.png",
+  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/78_96_197/78_96_197.png",
   "attributes": [
     {
       "trait_type": "R",
-      "value": "131"
+      "value": "78"
     },
     {
       "trait_type": "G",
-      "value": "140"
+      "value": "96"
     },
     {
       "trait_type": "B",
-      "value": "115"
+      "value": "197"
     }
   ]
 }

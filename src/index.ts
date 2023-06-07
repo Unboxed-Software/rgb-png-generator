@@ -1,5 +1,4 @@
 import fs from "fs"
-import path from "path"
 import Jimp from "jimp"
 
 async function createImage(
@@ -26,14 +25,20 @@ function generateRandomColor() {
 
 async function generateImages(n: number, dir: string) {
   const uriDir = "./uri"
-  if (!fs.existsSync(uriDir)) {
-    fs.mkdirSync(uriDir)
+  // Delete directories if they exist
+  if (fs.existsSync(uriDir)) {
+    fs.rmSync(uriDir, { recursive: true, force: true })
   }
 
-  let uris: string[] = []
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir)
+  if (fs.existsSync(dir)) {
+    fs.rmSync(dir, { recursive: true, force: true })
   }
+
+  // Recreate the directories
+  fs.mkdirSync(uriDir)
+  fs.mkdirSync(dir)
+
+  let uris: string[] = []
   for (let i = 0; i < n; i++) {
     const color = generateRandomColor()
     const colorDir = `${dir}/${color.r}_${color.g}_${color.b}`
