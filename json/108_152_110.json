@@ -1,0 +1,21 @@
+{
+  "name": "108_152_110",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/images/108_152_110.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "108"
+    },
+    {
+      "trait_type": "G",
+      "value": "152"
+    },
+    {
+      "trait_type": "B",
+      "value": "110"
+    }
+  ]
+}
