@@ -1,0 +1,21 @@
+{
+  "name": "203_125_7",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/203_125_7/203_125_7.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "203"
+    },
+    {
+      "trait_type": "G",
+      "value": "125"
+    },
+    {
+      "trait_type": "B",
+      "value": "7"
+    }
+  ]
+}

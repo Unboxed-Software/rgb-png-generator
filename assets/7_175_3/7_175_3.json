@@ -1,0 +1,21 @@
+{
+  "name": "7_175_3",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/7_175_3/7_175_3.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "7"
+    },
+    {
+      "trait_type": "G",
+      "value": "175"
+    },
+    {
+      "trait_type": "B",
+      "value": "3"
+    }
+  ]
+}

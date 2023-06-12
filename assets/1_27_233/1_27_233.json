@@ -1,0 +1,21 @@
+{
+  "name": "1_27_233",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/1_27_233/1_27_233.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "1"
+    },
+    {
+      "trait_type": "G",
+      "value": "27"
+    },
+    {
+      "trait_type": "B",
+      "value": "233"
+    }
+  ]
+}

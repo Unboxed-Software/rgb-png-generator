@@ -1,0 +1,21 @@
+{
+  "name": "51_30_81",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/51_30_81/51_30_81.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "51"
+    },
+    {
+      "trait_type": "G",
+      "value": "30"
+    },
+    {
+      "trait_type": "B",
+      "value": "81"
+    }
+  ]
+}

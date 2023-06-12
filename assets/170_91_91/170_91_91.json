@@ -1,0 +1,21 @@
+{
+  "name": "170_91_91",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/170_91_91/170_91_91.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "170"
+    },
+    {
+      "trait_type": "G",
+      "value": "91"
+    },
+    {
+      "trait_type": "B",
+      "value": "91"
+    }
+  ]
+}

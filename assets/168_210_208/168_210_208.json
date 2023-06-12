@@ -1,0 +1,21 @@
+{
+  "name": "168_210_208",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/168_210_208/168_210_208.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "168"
+    },
+    {
+      "trait_type": "G",
+      "value": "210"
+    },
+    {
+      "trait_type": "B",
+      "value": "208"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "15_54_130",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/15_54_130/15_54_130.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "15"
+    },
+    {
+      "trait_type": "G",
+      "value": "54"
+    },
+    {
+      "trait_type": "B",
+      "value": "130"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "6_197_200",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/6_197_200/6_197_200.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "6"
+    },
+    {
+      "trait_type": "G",
+      "value": "197"
+    },
+    {
+      "trait_type": "B",
+      "value": "200"
+    }
+  ]
+}

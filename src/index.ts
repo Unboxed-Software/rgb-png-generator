@@ -41,51 +41,60 @@ async function generateImages(n: number, dir: string) {
   fs.mkdirSync(dir)
 
   let uris: string[] = []
-  for (let i = 0; i < n; i++) {
+  let colorSet: Set<string> = new Set()
+
+  while (colorSet.size < n) {
     const color = generateRandomColor()
-    const colorDir = `${dir}/${color.r}_${color.g}_${color.b}`
-    if (!fs.existsSync(colorDir)) {
-      fs.mkdirSync(colorDir)
-    }
-    const fileName = `${colorDir}/${color.r}_${color.g}_${color.b}.png`
-    await createImage(fileName, 250, 250, color)
-
-    const data = {
-      name: `${color.r}_${color.g}_${color.b}`,
-      symbol: "RGB",
-      description: "Random RGB Color",
-      seller_fee_basis_points: 0,
-      image: `https://raw.githubusercontent.com/${gitHubName}/rgb-png-generator/master/assets/${color.r}_${color.g}_${color.b}/${color.r}_${color.g}_${color.b}.png`,
-      attributes: [
-        {
-          trait_type: "R",
-          value: color.r.toString(),
-        },
-        {
-          trait_type: "G",
-          value: color.g.toString(),
-        },
-        {
-          trait_type: "B",
-          value: color.b.toString(),
-        },
-      ],
-    }
-
-    fs.writeFile(
-      `${colorDir}/${color.r}_${color.g}_${color.b}.json`,
-      JSON.stringify(data, null, 2),
-      (err) => {
-        if (err) {
-          console.error("Error writing file:", err)
-        }
+    const colorKey = `${color.r}_${color.g}_${color.b}`
+    // If this color is unique, create an image
+    if (!colorSet.has(colorKey)) {
+      colorSet.add(colorKey)
+      const colorDir = `${dir}/${colorKey}`
+      if (!fs.existsSync(colorDir)) {
+        fs.mkdirSync(colorDir)
       }
-    )
+      const fileName = `${colorDir}/${colorKey}.png`
+      await createImage(fileName, 250, 250, color)
 
-    uris.push(
-      `https://raw.githubusercontent.com/${gitHubName}/rgb-png-generator/master/assets/${color.r}_${color.g}_${color.b}/${color.r}_${color.g}_${color.b}.json`
-    )
+      const data = {
+        name: colorKey,
+        symbol: "RGB",
+        description: "Random RGB Color",
+        seller_fee_basis_points: 0,
+        image: `https://raw.githubusercontent.com/${gitHubName}/rgb-png-generator/master/assets/${colorKey}/${colorKey}.png`,
+        attributes: [
+          {
+            trait_type: "R",
+            value: color.r.toString(),
+          },
+          {
+            trait_type: "G",
+            value: color.g.toString(),
+          },
+          {
+            trait_type: "B",
+            value: color.b.toString(),
+          },
+        ],
+      }
+
+      fs.writeFile(
+        `${colorDir}/${colorKey}.json`,
+        JSON.stringify(data, null, 2),
+        (err) => {
+          if (err) {
+            console.error("Error writing file:", err)
+          }
+        }
+      )
+
+      uris.push(
+        `https://raw.githubusercontent.com/${gitHubName}/rgb-png-generator/master/assets/${colorKey}/${colorKey}.json`
+      )
+    }
   }
+
+  console.log(`Generated ${colorSet.size} unique assets.`)
 
   fs.writeFile(
     `${uriDir}/uri.ts`,

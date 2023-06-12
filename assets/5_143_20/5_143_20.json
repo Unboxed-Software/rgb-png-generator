@@ -1,0 +1,21 @@
+{
+  "name": "5_143_20",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/5_143_20/5_143_20.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "5"
+    },
+    {
+      "trait_type": "G",
+      "value": "143"
+    },
+    {
+      "trait_type": "B",
+      "value": "20"
+    }
+  ]
+}

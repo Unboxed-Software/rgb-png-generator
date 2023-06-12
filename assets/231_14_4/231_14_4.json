@@ -1,0 +1,21 @@
+{
+  "name": "231_14_4",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/231_14_4/231_14_4.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "231"
+    },
+    {
+      "trait_type": "G",
+      "value": "14"
+    },
+    {
+      "trait_type": "B",
+      "value": "4"
+    }
+  ]
+}
