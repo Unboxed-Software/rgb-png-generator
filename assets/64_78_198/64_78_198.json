@@ -1,0 +1,21 @@
+{
+  "name": "64_78_198",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/64_78_198/64_78_198.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "64"
+    },
+    {
+      "trait_type": "G",
+      "value": "78"
+    },
+    {
+      "trait_type": "B",
+      "value": "198"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "120_60_185",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/120_60_185/120_60_185.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "120"
+    },
+    {
+      "trait_type": "G",
+      "value": "60"
+    },
+    {
+      "trait_type": "B",
+      "value": "185"
+    }
+  ]
+}

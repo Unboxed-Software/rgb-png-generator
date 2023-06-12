@@ -1,0 +1,21 @@
+{
+  "name": "70_238_50",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/70_238_50/70_238_50.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "70"
+    },
+    {
+      "trait_type": "G",
+      "value": "238"
+    },
+    {
+      "trait_type": "B",
+      "value": "50"
+    }
+  ]
+}

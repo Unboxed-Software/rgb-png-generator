@@ -1,0 +1,21 @@
+{
+  "name": "8_25_46",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/8_25_46/8_25_46.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "8"
+    },
+    {
+      "trait_type": "G",
+      "value": "25"
+    },
+    {
+      "trait_type": "B",
+      "value": "46"
+    }
+  ]
+}

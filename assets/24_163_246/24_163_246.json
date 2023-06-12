@@ -1,0 +1,21 @@
+{
+  "name": "24_163_246",
+  "symbol": "RGB",
+  "description": "Random RGB Color",
+  "seller_fee_basis_points": 0,
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/24_163_246/24_163_246.png",
+  "attributes": [
+    {
+      "trait_type": "R",
+      "value": "24"
+    },
+    {
+      "trait_type": "G",
+      "value": "163"
+    },
+    {
+      "trait_type": "B",
+      "value": "246"
+    }
+  ]
+}

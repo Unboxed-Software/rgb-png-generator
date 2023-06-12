@@ -98,4 +98,4 @@ async function generateImages(n: number, dir: string) {
   )
 }
 
-generateImages(10, "./assets")
+generateImages(10_000, "./assets")
