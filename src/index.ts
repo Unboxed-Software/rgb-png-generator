@@ -1,6 +1,8 @@
 import fs from "fs"
 import Jimp from "jimp"
 
+const gitHubName = "Unboxed-Software"
+
 async function createImage(
   fileName: string,
   width: number,
@@ -53,7 +55,7 @@ async function generateImages(n: number, dir: string) {
       symbol: "RGB",
       description: "Random RGB Color",
       seller_fee_basis_points: 0,
-      image: `https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/${color.r}_${color.g}_${color.b}/${color.r}_${color.g}_${color.b}.png`,
+      image: `https://raw.githubusercontent.com/${gitHubName}/rgb-png-generator/master/assets/${color.r}_${color.g}_${color.b}/${color.r}_${color.g}_${color.b}.png`,
       attributes: [
         {
           trait_type: "R",
@@ -81,7 +83,7 @@ async function generateImages(n: number, dir: string) {
     )
 
     uris.push(
-      `https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/${color.r}_${color.g}_${color.b}/${color.r}_${color.g}_${color.b}.json`
+      `https://raw.githubusercontent.com/${gitHubName}/rgb-png-generator/master/assets/${color.r}_${color.g}_${color.b}/${color.r}_${color.g}_${color.b}.json`
     )
   }
 

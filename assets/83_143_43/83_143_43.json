@@ -1,21 +1,21 @@
 {
-  "name": "40_183_132",
+  "name": "83_143_43",
   "symbol": "RGB",
   "description": "Random RGB Color",
   "seller_fee_basis_points": 0,
-  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/40_183_132/40_183_132.png",
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/83_143_43/83_143_43.png",
   "attributes": [
     {
       "trait_type": "R",
-      "value": "40"
+      "value": "83"
     },
     {
       "trait_type": "G",
-      "value": "183"
+      "value": "143"
     },
     {
       "trait_type": "B",
-      "value": "132"
+      "value": "43"
     }
   ]
 }

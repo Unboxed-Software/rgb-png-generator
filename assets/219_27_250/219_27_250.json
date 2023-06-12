@@ -1,21 +1,21 @@
 {
-  "name": "78_96_197",
+  "name": "219_27_250",
   "symbol": "RGB",
   "description": "Random RGB Color",
   "seller_fee_basis_points": 0,
-  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/78_96_197/78_96_197.png",
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/219_27_250/219_27_250.png",
   "attributes": [
     {
       "trait_type": "R",
-      "value": "78"
+      "value": "219"
     },
     {
       "trait_type": "G",
-      "value": "96"
+      "value": "27"
     },
     {
       "trait_type": "B",
-      "value": "197"
+      "value": "250"
     }
   ]
 }

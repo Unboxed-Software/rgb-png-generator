@@ -1,21 +1,21 @@
 {
-  "name": "69_46_192",
+  "name": "74_73_99",
   "symbol": "RGB",
   "description": "Random RGB Color",
   "seller_fee_basis_points": 0,
-  "image": "https://raw.githubusercontent.com/ZYJLiu/rgb-png-generator/master/assets/69_46_192/69_46_192.png",
+  "image": "https://raw.githubusercontent.com/Unboxed-Software/rgb-png-generator/master/assets/74_73_99/74_73_99.png",
   "attributes": [
     {
       "trait_type": "R",
-      "value": "69"
+      "value": "74"
     },
     {
       "trait_type": "G",
-      "value": "46"
+      "value": "73"
     },
     {
       "trait_type": "B",
-      "value": "192"
+      "value": "99"
     }
   ]
 }
